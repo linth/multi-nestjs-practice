@@ -45,6 +45,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/my-app3/tsconfig.app.json"
       }
+    },
+    "popcorn": {
+      "type": "library",
+      "root": "libs/popcorn",
+      "entryFile": "index",
+      "sourceRoot": "libs/popcorn/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/popcorn/tsconfig.lib.json"
+      }
     }
   }
 }
